@@ -1,0 +1,109 @@
+body{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+h1,h2,h3,h4{
+    padding: 0;
+    margin: 0;
+}
+a{ 
+	text-decoration:none;
+}
+.mid{
+    width: 80%;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.left-area, .right-area{
+    width: 50%;
+    float: left;
+}
+section::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.intro-area{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-txt{
+    font-size: 45px;
+    font-weight: normal;
+}
+.top-title-area{
+    padding-top: 15%;
+}
+.top-img-area{
+    padding-top: 7%;
+}
+.name-txt{
+    font-size: 45px;
+    color:#EC4C7A;
+}
+.link-btn{
+    background-color: #EC4C7A;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 4%;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.biography-txt-zone{
+    padding-left: 15%;
+}
+.work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.working-part{
+    width: 30%;
+    display: inline-block;
+}
+.work-txt{
+    text-align: center;
+    padding: 6% 0%;
+}
+.client-feedback-area
+{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.client-content{
+    text-align: center;
+}
+.client-content p{
+    font-size: 13px;
+    color:#c1c1c1;
+}
+.client-message{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.mailbox{
+    width: 60%;
+    margin: auto;
+    background-color: #EC4E8A;
+    padding: 4% 0%;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    
+}
+.copyright {
+  
+    padding-top: 2%;
+    margin-top: 3%;
+}
